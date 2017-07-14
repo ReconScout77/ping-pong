@@ -27,7 +27,10 @@ $(function() {
     event.preventDefault();
 
     var inputNumber = parseInt($("#pingPongNumber").val());
+    var countedNumbers = pingPong(inputNumber)
 
-    $("#output ul").append("<li>" + pingPong(inputNumber) + "</li>");
+    countedNumbers.forEach(function(countedNumber) {
+      $("#output ul").append("<li>" + countedNumber + "</li>");
+    });
   });
 });
