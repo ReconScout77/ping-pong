@@ -1,0 +1,20 @@
+.col-md-3 {
+  background-color: #98ba92;
+}
+
+.col-md-3 h4 {
+  color: #f1dfb7;
+}
+
+.col-md-3 p {
+  color: #ffffff;
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+.jumbotron {
+  background-color: #f1dfb7;
+  text-align: center;
+}
