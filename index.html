@@ -33,6 +33,19 @@
             <li>Numbers divisible by 15 (3 and 5) become 'ping-pong'</li>
           </ol>
           <form id="inputForm">
+            <h4>You can choose in what order it counts!</h4>
+            <div class="radio">
+              <label>
+                <input type="radio" name="order" value="normal" checked>
+                Normal
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="order" value="reverse">
+                Reversed
+              </label>
+            </div>
             <label for="pingPongNumber">Enter a number</label>
             <input id="pingPongNumber" type="number">
             <button type="submit" class="btn">Just do it!</button>

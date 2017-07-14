@@ -28,10 +28,17 @@ $(function() {
     $("#output ul").text("");
 
     var inputNumber = parseInt($("#pingPongNumber").val());
-    var countedNumbers = pingPong(inputNumber)
+    var countedNumbers = pingPong(inputNumber);
+    var ordering = $("input:radio[name=order]:checked").val();
 
-    countedNumbers.forEach(function(countedNumber) {
-      $("#output ul").append("<li>" + countedNumber + "</li>");
-    });
+    if (ordering === "reverse") {
+      countedNumbers.forEach(function(countedNumber) {
+        $("#output ul").prepend("<li>" + countedNumber + "</li>");
+      });
+    } else {
+      countedNumbers.forEach(function(countedNumber) {
+        $("#output ul").append("<li>" + countedNumber + "</li>");
+      });
+    }
   });
 });

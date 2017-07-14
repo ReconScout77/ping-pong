@@ -6,3 +6,4 @@
 | It replaces numbers divisible by 15 with "ping-pong" | 15 | ping-pong |
 | It separates the counted numbers into separate list items | 3 | <li>1</li>  <li>2</li>  <li>ping</li> |
 | It clears previous text | 3 <br> <br> <br> 2 | <li>1</li>  <li>2</li>  <li>ping</li> <br> <li>1</li>  <li>2</li> |
+| It can count in reverse order | radio value = reverse <br> 3 | <li>ping</li> <li>2</li> <li>1</li> |
