@@ -25,6 +25,7 @@ var pingPong = function(number) {
 $(function() {
   $("#inputForm").submit(function(event) {
     event.preventDefault();
+    $("#output ul").text("");
 
     var inputNumber = parseInt($("#pingPongNumber").val());
     var countedNumbers = pingPong(inputNumber)
