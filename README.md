@@ -1,3 +1,11 @@
+# Ping Pong
+
+#### Counts to the input number, replacing some numbers with ping, pong, or ping-pong, July 14, 2017
+
+#### By Robert Murray
+
+## Specifications
+
 | Behavior | Input | Output |
 | -------- | ----- | ------ |
 | It can count to the provided number | 2 | [1,2] |
