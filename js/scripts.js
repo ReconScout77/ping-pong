@@ -11,7 +11,9 @@ var pingPong = function(number) {
   var countThis = numberToArray(number);
 
   for (var i = 0; i < countThis.length; i++) {
-    if ((countThis[i] % 5) === 0) {
+    if ((countThis[i] % 15) === 0) {
+      countThis[i] = "ping-pong";
+    } else if ((countThis[i] % 5) === 0) {
       countThis[i] = "pong";
     } else if ((countThis[i] % 3) === 0 ) {
       countThis[i] = "ping";
