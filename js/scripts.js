@@ -11,8 +11,11 @@ var pingPong = function(number) {
   var countThis = numberToArray(number);
 
   for (var i = 0; i < countThis.length; i++) {
-
+    if ((countThis[i] % 3) === 0 ) {
+      countThis[i] = "ping";
+    }
   }
+  return countThis;
 }
 
 $(function() {
@@ -21,6 +24,6 @@ $(function() {
 
     var inputNumber = parseInt($("#pingPongNumber").val());
 
-    $("#output ul").append("<li>" + numberToArray(inputNumber) + "</li>");
+    $("#output ul").append("<li>" + pingPong(inputNumber) + "</li>");
   });
 });
