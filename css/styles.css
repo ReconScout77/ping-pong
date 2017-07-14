@@ -1,13 +1,13 @@
 .col-md-3 {
-  background-color: #98ba92;
+  background-color: #c59190;
 }
 
 .col-md-3 h4 {
-  color: #f1dfb7;
+  color: #752e12;
 }
 
 .col-md-3 p {
-  color: #ffffff;
+  color: #eeeeee;
 }
 
 body {
@@ -15,6 +15,6 @@ body {
 }
 
 .jumbotron {
-  background-color: #f1dfb7;
+  background-color: #e57e52;
   text-align: center;
 }
